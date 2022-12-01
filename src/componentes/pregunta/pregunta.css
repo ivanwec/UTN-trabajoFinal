@@ -1,0 +1,55 @@
+
+h2{
+    text-align: center;
+}
+.divButonPreg{
+    text-align: center;
+}
+.boton{
+    background-color: #ab8b65;
+    color: white;
+    border-radius: 20px;
+}
+.boton:hover{
+    
+    color: rgb(0, 0, 0);
+    
+   
+}
+
+.hHome2{
+    padding: 1%;
+    text-align: center;
+}
+
+.divHome3{
+    display:flex;
+    text-align: center;
+   
+}
+
+.divIconHome{
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+.divCajaHome{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    } 
+    span{
+        color: #ab8b65;
+    }
+    
+    .divHome1{
+        text-align: center;
+        margin: 2%
+    }
+    @media (max-width:679px){
+        .divHome3{
+            display: grid;
+   
+        }
+    }

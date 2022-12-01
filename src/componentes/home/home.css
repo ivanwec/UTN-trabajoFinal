@@ -1,0 +1,65 @@
+span{
+    color: #ab8b65;
+}
+
+.divHome{
+    text-align: center;
+    margin: 2%
+}
+
+.divHome2{
+    padding: 1%;
+}
+
+.divHome3{
+    display:flex;
+    
+    
+}
+
+.divIconHome{
+    font-size: 2em;
+    
+}
+
+.divCajaHome{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.divTendencia{
+    background-color: #2D3635;
+    /* text-align: center; */
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    color: white;
+    /* padding: 2%; */
+}
+/* .divYoutube{
+    
+    height: 30rem;
+    width: 10rem;
+    
+} */
+/* iframe{
+    border-right: rgb(255, 255, 255) solid 2px;
+    border-bottom: rgb(255, 255, 255) solid 2px;
+     height: 100%;
+    width: 100%; 
+}  */
+/* .divTend{
+    width: 1fr;
+} */
+.divHome1{
+    text-align: center;
+    margin: 2%
+}
+.divTen{
+    width: 0.5rem;
+    height: 
+    
+}
+.imgTen{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}

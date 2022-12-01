@@ -1,0 +1,48 @@
+form{
+    text-align: center;
+}
+label{display: block;}
+
+.buttonForm:hover{background-color: black;
+color: white;}
+
+.divPagForm{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        
+}
+.divF{
+    background-color: #2D3635;
+    color: white;
+    
+}
+.divU{
+    background-color:#242B2A;
+    text-align: left;
+    font: 50px;
+    align-items: center;
+    padding: 2%;
+}
+
+.liVentajas{
+    font-size: 20px;
+   
+}
+
+.textArea{
+    height: 121px;
+}
+.formul{
+    padding: 2%;
+}
+@media (max-width:640px){
+    .divPagForm{
+        display: block; 
+    flex-direction: column;}
+    input,
+    select,
+    textarea {
+        margin-bottom: 1rem;
+    }
+}

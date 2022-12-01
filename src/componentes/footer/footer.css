@@ -1,0 +1,35 @@
+.div1foot{
+    
+    color: rgb(226, 21, 21);
+}
+footer{background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 1%;
+text-decoration: none;
+clear: both;
+}
+
+.aFootNombre:link, .aFootNombre:visited, .aFootNombre:hover, .aFootNombre:active{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline-flex;
+    padding: 1%;
+    font-size: 2em;
+    color: white;   
+}
+
+.aFoot:link, .aFoot:visited, .aFoot:hover, .aFoot:active{
+    color: #fcefef;
+    text-decoration: none;
+}
+
+.ulSocial{
+    padding: 0%;
+}
+.footNombre{
+    padding: 1%;
+}

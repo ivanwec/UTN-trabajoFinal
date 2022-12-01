@@ -1,0 +1,36 @@
+            .deck{
+              
+                width: 100%
+                ;
+
+            }    
+            .imagenescarru {
+                        width: 100%;
+                        height: 100%;
+                        justify-content: center;
+                    }
+              .textoImg{
+                 font-size: 25px;
+            } 
+            .t{
+                background-color: rgba(0, 0, 0, 0.404);
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            } 
+
+          
+            .tituloImg{
+                text-align: center;
+                font-size: 5vh
+            }
+            @media (max-width: 1060px){
+                .tituloImg{
+                    text-align: center;
+                    font-size: 2vh
+                    
+                }
+                .textoImg{display: none;}
+            }
+          
+        
