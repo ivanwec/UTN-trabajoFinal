@@ -11,14 +11,12 @@ function ContactForm() {
   return (
     <div className='divEnviarConsulta'>
     <div className='divPagForm'> 
-        <div className='divF'><form className='formul' onSubmit={handleSubmit}>
+        <div className='divF'>
+            <form className='formul' onSubmit={handleSubmit}>
             <label htmlFor="nombre">
                 Nombre
             </label>
-            
-            <input
-            size={40}
-           
+            <input size={30}
                 id="nombre"
                 type="text" 
                 name="text"
@@ -28,7 +26,7 @@ function ContactForm() {
             </label>
             
             <input
-            size={40}
+            size={30}
                 id="email"
                 type="email" 
                 name="email"
@@ -41,10 +39,8 @@ function ContactForm() {
             <label>
                 Déjenos su consulta
             </label>
-            <textarea className='textArea' maxLength={500}
-            
-            cols="42"
-            
+            <textarea className='textArea' maxLength={500}         
+            cols="33"
                 id="message"
                 name="message"
             />
@@ -69,10 +65,12 @@ Obtené tu presupuesto a medida de acuerdo a tus gustos, necesidades y con la me
 </ul>
     </div>
     </div>
+
     <div className="divHome1">
-                <h1> Lumetri  <span>transformando tu sueño</span> en realidad</h1>
-            </div>
+                <h1 className='lume'> Lumetri  {<span>transformando tu sueño</span>} en realidad</h1>
     </div>
+
+</div>
   );
  
 }

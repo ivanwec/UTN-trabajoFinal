@@ -1,7 +1,6 @@
 import React from "react";
 /* import { Link } from "react-router-dom"; */
 import "./contenido.css";
-import Nav from 'react-bootstrap/Nav';
 import ten1 from '../contenido/ten1.jpeg';
 import ten2 from '../contenido/ten2.jpg';
 import ten3 from '../contenido/ten3.jpg';
@@ -20,28 +19,28 @@ const Contenido = () => {
     
         <div className="itemListContainer">
 <div>
-    <img className="imgTendi" src={ten1}/>
+    <img className="imgTendi" src={ten1} alt="ten1"/>
 </div>
 <div>
-<img className="imgTendi" src={ten2}/>
+<img className="imgTendi" src={ten2} alt="ten2"/>
 </div>
 <div>
-<img className="imgTendi" src={ten3}/>
+<img className="imgTendi" src={ten3} alt="ten3"/>
 </div>
 <div>
-<img className="imgTendi" src={ten4}/>
+<img className="imgTendi" src={ten4} alt="ten4"/>
 </div>
 <div>
-<img className="imgTendi" src={ten5}/>
+<img className="imgTendi" src={ten5} alt="ten5"/>
 </div>
 <div>
-<img className="imgTendi" src={ten6}/>
+<img className="imgTendi" src={ten6} alt="ten6"/>
 </div>
 <div>
-<img className="imgTendi" src={ten7}/>
+<img className="imgTendi" src={ten7} alt="ten7"/>
 </div>
 <div>
-<img className="imgTendi" src={ten8}/>
+<img className="imgTendi" src={ten8} alt="ten8"/>
 </div>
 
         </div>
